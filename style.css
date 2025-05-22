@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+/* Form dang nhap */
+.parent {
+    width: 80%;
+    border-radius: 10px;
+    border: solid black  1px;
+    margin-top: 50px;
+}
+.content{
+    display: flex;
+}
+.header {
+    padding-left: 20px;
+    font-size: 26px;
+    background-color: #f8f8f8;
+    border-radius: 10px 10px 0 0;
+
+}
+.header p {
+    margin: 0;
+    padding: 26px 0;
+}
+hr {
+    margin: 0;
+}
+.content-left{
+    width: 30%;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.content-right img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
