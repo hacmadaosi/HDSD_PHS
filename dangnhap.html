@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hướng dẫn sử dụng</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <div class="parent">
             <div class="header">
-                <p>Đăng nhập</p>
+                <h3>Đăng nhập</h3>
             </div>
             <hr>
             <div class="content">
                 <div class="content-left">
-                    <p>Hướng dẫn sử dụng màn hình <b>Đăng nhập</b>.</p>
+                    <p>Hướng dẫn sử dụng giao diện <b>Đăng nhập</b>.</p>
                 </div>
                 
                 <div class="content-right">
@@ -22,5 +23,56 @@
                 </div>
             </div>
     </div>
+    <div class="list">
+        <ul>
+            <li><a href="#dangnhap">Chức năng Đăng nhập</a></li>
+            <li><a href="#anmatkhau">Ẩn/Hiện mật khẩu</a></li>
+            <li><a href="#xoatendangnhap">Xóa tên đăng nhập</a></li>
+            <li><a href="#enterdangnhap">Nhấn Enter để đăng nhập</a></li>
+            <li><a href="#kiemtradulieu">Kiểm tra dữ liệu đầu vào</a></li>
+            <li><a href="#thoat">Thoát chương trình</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <div class="section" id="dangnhap">
+            <h2>Chức năng Đăng nhập</h2>
+            <p>Người dùng nhập <strong>tên đăng nhập</strong> và <strong>mật khẩu</strong>, sau đó nhấn nút <strong>Đăng nhập</strong>.</p>
+            <ul>
+                <li>Nếu tài khoản đúng, người dùng sẽ được chuyển sang giao diện chính.</li>
+                <li>Nếu sai, sẽ hiển thị thông báo lỗi.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="anmatkhau">
+            <h2>Ẩn/Hiện mật khẩu</h2>
+            <p>Nhấn vào biểu tượng <i class="fa-solid fa-eye"></i>, <i class="fa-solid fa-eye-slash"></i> để chuyển đổi giữa việc hiển thị và ẩn mật khẩu. Giúp người dùng kiểm tra khi gõ mật khẩu.</p>
+        </div>
+
+        <div class="section" id="xoatendangnhap">
+            <h2>Xóa tên đăng nhập</h2>
+            <p>Nhấn vào biểu tượng <i class="fa-regular fa-circle-xmark"></i> để xóa nội dung đã nhập trong ô <strong>Tên đăng nhập</strong>.</p>
+        </div>
+
+        <div class="section" id="enterdangnhap">
+            <h2>Nhấn Enter để đăng nhập</h2>
+            <p>Khi nhập xong mật khẩu, người dùng có thể nhấn <strong>phím Enter</strong> để tự động thực hiện thao tác đăng nhập mà không cần nhấn nút bằng chuột.</p>
+        </div>
+
+        <div class="section" id="kiemtradulieu">
+            <h2>Kiểm tra dữ liệu đầu vào</h2>
+            <p>Trước khi đăng nhập, chương trình kiểm tra:</p>
+            <ul>
+                <li>Không để trống tên đăng nhập hoặc mật khẩu.</li>
+                <li>Tên đăng nhập không được là số nguyên.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="thoat">
+            <h2>Thoát chương trình</h2>
+            <p>Nhấn nút <strong>Thoát</strong> để đóng ứng dụng ngay lập tức.</p>
+        </div>
+    </div>
+    
 </body>
 </html>
