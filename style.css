@@ -38,6 +38,8 @@ body{
 
 .section {
     margin-bottom: 10px;
+    display: none;
+    margin-left: 40px;
 }
 .section h2 {
     font-size: 30px;
@@ -77,9 +79,6 @@ p {
 
 .main_content {
     margin-left:20px;
-}
-.main_content div {
-    display: none;
 }
 
 #quaylai {
