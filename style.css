@@ -1,4 +1,7 @@
-/* Khối chacha */
+body{
+    margin: 10px 0 ;
+}
+/* Khối cha */
 .parent {
     width: 80%;
     border-radius: 10px;
@@ -17,7 +20,7 @@
     margin: 0;
     padding: 26px 0;
 }
-/* Nội dung trong bảngbảng */
+/* Nội dung trong bảng */
 .content{
     display: flex;
 }
@@ -34,16 +37,22 @@
 /* CSS tiêu đề */
 
 .section {
-    margin-bottom: 36px;
+    margin-bottom: 10px;
 }
 .section h2 {
     font-size: 30px;
+    margin: 10px 0;
 }
 .section p, li {
     font-size: 26px;
     list-style-type: none;
-}
+        margin: 10px 0;
 
+}
+.list h2 {
+    padding: 0 20px;
+    margin-bottom: 0px;
+}
 /* Các thẻ */
 
 a:hover{
@@ -64,4 +73,17 @@ hr {
 }
 p {
     font-size: 26px;
+}
+
+.main_content {
+    margin-left:20px;
+}
+.main_content div {
+    display: none;
+}
+
+#quaylai {
+    text-align: right;
+    margin: 0 20px ;
+    padding-bottom: 10px;
 }
