@@ -1,0 +1,33 @@
+h1 {
+    margin-left: 20px;
+}
+
+.nav-bar {
+      position: relative;
+  width: 100%;
+  border: 1px solid #ccc; /* để dễ thấy vùng chứa */
+  height: 500px;
+
+}
+
+.nav-item {
+  position: absolute;
+  transition: left 1s ease-in-out, top 1s ease-in-out;
+  will-change: left, top;
+  padding: 10px 20px;
+  font-size: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+
+}
+a.nav-item {
+    text-decoration: none;
+    color: black;
+}
+.nav-item:hover{
+    background-color: deepskyblue;
+    color: white;
+    transition: 0.4s;
+    font-size: 40px;
+}

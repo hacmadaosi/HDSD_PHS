@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 quayLai.style.display = 'block';
                 quayLai.scrollIntoView({ behavior: 'smooth', block: 'end' });
             }
+            
         };
     });
 });
