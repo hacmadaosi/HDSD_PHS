@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng dẫn sử dụng</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="parent">
+            <div class="header">
+                <h3>Lịch sử tương tác thuốc</h3>
+            </div>
+            <hr>
+            <div class="content">
+                <div class="content-left">
+                    <p>Hướng dẫn sử dụng giao diện <b>Lịch sử tương tác thuốc</b>.</p>
+                </div>
+                
+                <div class="content-right">
+                    <img src="./Images/DangNhap.png" alt="">
+                </div>
+            </div>
+    </div>
+    <div class="list">
+        <h2>Mục lục chức năng:</h2>
+        <ul>
+            <li><a href="#hien-thi-danh-sach-thuoc">Hiển thị danh sách thuốc</a></li>
+            <li><a href="#tim-kiem-va-loc-thuoc">Tìm kiếm</a></li>
+            <li><a href="#them-thuoc-moi">Thêm thuốc mới</a></li>
+            <li><a href="#xuat-lich-su-ra-excel">Xuất lịch sử thêm thuốc ra file Excel</a></li>
+            <li><a href="#lam-moi-danh-sach">Làm mới danh sách</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <div class="section" id="hien-thi-danh-sach-thuoc">
+            <h2>Hiển thị danh sách thuốc</h2>
+            <p>Khi form được tải lên, ứng dụng sẽ truy vấn dữ liệu từ cơ sở dữ liệu, kết hợp thông tin từ các bảng liên quan như thuốc, kho, bác sĩ và chi tiết thêm thuốc. Dữ liệu được hiển thị lên bảng (DataGridView) theo thứ tự thời gian giảm dần, giúp người dùng dễ dàng xem toàn bộ lịch sử các thuốc đã được thêm vào hệ thống.</p>
+        </div>
+
+        <div class="section" id="tim-kiem">
+            <h2>Tìm kiếm</h2>
+            <p>Người dùng nhập từ khóa vào ô tìm kiếm để lọc danh sách thuốc theo tên thuốc, tên bác sĩ hoặc loại tương tác. Khi nhấn nút tìm kiếm, danh sách sẽ chỉ hiển thị những mục phù hợp với từ khóa giúp nhanh chóng tìm kiếm thông tin cần thiết.</p>
+        </div>
+
+        <div class="section" id="them-thuoc-moi">
+            <h2>Thêm thuốc mới</h2>
+            <p>Chức năng cho phép người dùng mở form quản lý thuốc mới, nhập liệu và thêm thuốc mới vào hệ thống, bổ sung dữ liệu cho danh sách lịch sử.</p>
+        </div>
+
+        <div class="section" id="xuat-lich-su-ra-excel">
+            <h2>Xuất file Excel</h2>
+            <p>Người dùng có thể xuất toàn bộ lịch sử thuốc đã thêm ra file Excel (.xls hoặc .xlsx) để lưu trữ hoặc chia sẻ. Ứng dụng sử dụng thư viện ClosedXML để tạo file bảng tính, tự động điều chỉnh kích thước cột và lưu dữ liệu với định dạng dễ đọc.</p>
+        </div>
+
+        <div class="section" id="lam-moi-danh-sach">
+            <h2>Làm mới danh sách</h2>
+            <p>Chức năng làm mới sẽ tải lại dữ liệu từ cơ sở dữ liệu để cập nhật danh sách hiển thị trên form, đảm bảo dữ liệu luôn chính xác và cập nhật sau khi thêm, sửa hoặc xóa thông tin.</p>
+        </div>
+
+        <div class="section" id="quaylai">
+            <h2><a href="">Quay lại</a></h2>
+        </div>
+    </div>
+    
+</body>
+</html>
