@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng dẫn sử dụng</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="parent">
+            <div class="header">
+                <h3>Tạo toa thuốc</h3>
+            </div>
+            <hr>
+            <div class="content">
+                <div class="content-left">
+                    <p>Hướng dẫn sử dụng giao diện <b>Tạo toa thuốc</b>.</p>
+                </div>
+                
+                <div class="content-right">
+                    <img src="./Images/DangNhap.png" alt="">
+                </div>
+            </div>
+    </div>
+    <div class="list">
+        <h2>Mục lục chức năng:</h2>
+        <ul>
+            <li><a href="#hienthithongtinbenhnhan">Giao diện hiển thị thông tin bệnh nhân</a></li>
+            <li><a href="#timbenhnhan">Tìm bệnh nhân</a></li>
+            <li><a href="#thembenhnhan">Thêm bệnh nhân</a></li>
+            <li><a href="#huythaotac">Hủy thao tác</a></li>
+            <li><a href="#kiemtrabaohiem">Kiểm tra bảo hiểm</a></li>
+            <li><a href="#giaodienthemthuoc">Giao diện thêm thuốc</a></li>
+            <li><a href="#giaodientoathuoc">Giao diện chứa thông tin toa thuốc</a></li>
+            <li><a href="#chitietdieutri">Giao diện hiển thị chi tiết điều trị</a></li>
+            <li><a href="#xuathoadon">Xuất hóa đơn</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <div class="section" id="hienthithongtinbenhnhan">
+            <h2>Giao diện hiển thị thông tin bệnh nhân</h2>
+            <p>Hiển thị đầy đủ các thông tin cơ bản của bệnh nhân như họ tên, tuổi, giới tính, địa chỉ và số điện thoại.</p>
+            <ul>
+                <li>Thông tin được lấy từ cơ sở dữ liệu khi chọn bệnh nhân.</li>
+                <li>Giao diện giúp người dùng dễ dàng xem và kiểm tra dữ liệu bệnh nhân.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="timbenhnhan">
+            <h2>Tìm bệnh nhân</h2>
+            <p>Cho phép người dùng nhập các tiêu chí tìm kiếm như tên, mã bệnh nhân hoặc số điện thoại để tìm kiếm bệnh nhân.</p>
+            <ul>
+                <li>Kết quả hiển thị danh sách bệnh nhân phù hợp.</li>
+                <li>Người dùng có thể chọn bệnh nhân từ danh sách để xem chi tiết.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="thembenhnhan">
+            <h2>Thêm bệnh nhân</h2>
+            <p>Giao diện cho phép người dùng nhập thông tin mới của bệnh nhân để thêm vào hệ thống.</p>
+            <ul>
+                <li>Các trường thông tin bắt buộc như họ tên, ngày sinh, giới tính phải được nhập đầy đủ.</li>
+                <li>Hệ thống kiểm tra tính hợp lệ của dữ liệu trước khi lưu.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="huythaotac">
+            <h2>Hủy thao tác</h2>
+            <p>Cho phép người dùng hủy bỏ thao tác đang thực hiện, ví dụ như thêm hoặc sửa bệnh nhân, trả lại trạng thái ban đầu.</p>
+            <ul>
+                <li>Nút hủy sẽ xóa các dữ liệu đã nhập và không lưu lại.</li>
+                <li>Giúp tránh nhầm lẫn hoặc nhập sai dữ liệu.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="kiemtrabaohiem">
+            <h2>Kiểm tra bảo hiểm</h2>
+            <p>Cho phép kiểm tra thông tin bảo hiểm y tế của bệnh nhân dựa trên mã bảo hiểm hoặc số thẻ.</p>
+            <ul>
+                <li>Hiển thị kết quả hợp lệ hoặc không hợp lệ của thẻ bảo hiểm.</li>
+                <li>Giúp xác định quyền lợi và chi phí thanh toán của bệnh nhân.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="giaodienthemthuoc">
+            <h2>Giao diện thêm thuốc</h2>
+            <p>Cho phép người dùng thêm thuốc vào toa thuốc của bệnh nhân với các thông tin như tên thuốc, liều lượng và số lượng.</p>
+            <ul>
+                <li>Cung cấp danh sách thuốc có sẵn để chọn.</li>
+                <li>Cho phép nhập các chỉ dẫn dùng thuốc cho bệnh nhân.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="giaodientoathuoc">
+            <h2>Giao diện chứa thông tin toa thuốc</h2>
+            <p>Hiển thị toàn bộ các thuốc đã được thêm vào toa thuốc của bệnh nhân.</p>
+            <ul>
+                <li>Cho phép sửa hoặc xóa thuốc trong toa.</li>
+                <li>Hiển thị tổng số lượng và liều dùng.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="chitietdieutri">
+            <h2>Giao diện hiển thị chi tiết điều trị</h2>
+            <p>Hiển thị các thông tin chi tiết về quá trình điều trị của bệnh nhân như chẩn đoán, phương pháp điều trị và tiến trình.</p>
+            <ul>
+                <li>Cho phép xem lại lịch sử điều trị của bệnh nhân.</li>
+                <li>Hỗ trợ bác sĩ đánh giá và tiếp tục điều trị hiệu quả.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="xuathoadon">
+            <h2>Xuất hóa đơn</h2>
+            <p>Cho phép xuất hóa đơn thanh toán dựa trên các dịch vụ và thuốc đã sử dụng của bệnh nhân.</p>
+            <ul>
+                <li>Hiển thị đầy đủ chi tiết các khoản phí.</li>
+                <li>Cung cấp tùy chọn in hoặc lưu hóa đơn dưới dạng file.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="quaylai">
+            <h2><a href="">Quay lại</a></h2>
+        </div>
+    </div>
+    
+</body>
+</html>
