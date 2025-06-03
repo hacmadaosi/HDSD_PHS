@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng dẫn sử dụng</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <a href="index.html">
+        <h1 class="title">Hướng dẫn sử dụng</h1>
+    </a>
+    <div class="parent">
+            <div class="header">
+                <h3>Chuyên khoa</h3>
+            </div>
+            <hr>
+            <div class="content">
+                <div class="content-left">
+                    <p>Hướng dẫn sử dụng giao diện <b>Chuyên khoa</b>.</p>
+                </div>
+                
+                <div class="content-right">
+                    <img src="./Images/2ChuyenKhoa.jpg" alt="">
+                </div>
+            </div>
+    </div>
+    <div class="list">
+        <h2>Mục lục chức năng:</h2>
+        <ul>
+            <li><a href="#them">Chức năng Thêm</a></li>
+            <li><a href="#sua">Chức năng Sửa</a></li>
+            <li><a href="#xoa">Chức năng Xóa</a></li>
+            <li><a href="#luu">Chức năng Lưu</a></li>
+            <li><a href="#huybo">Chức năng Hủy bỏ</a></li>
+            <li><a href="#timkiem">Chức năng Tìm kiếm</a></li>
+            <li><a href="#xuat">Chức năng Xuất Excel</a></li>
+            <li><a href="#nhap">Chức năng Nhập Excel</a></li>
+            <li><a href="#thoat">Chức năng Thoát</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <div class="section" id="them">
+            <h2>Chức năng Thêm</h2>
+            <p>Cho phép người dùng thêm một chuyên khoa mới.</p>
+            <ul>
+                <li>Khi nhấn nút <strong>Thêm</strong>, các ô nhập liệu được bật và làm trống.</li>
+                <li>Người dùng nhập thông tin và nhấn <strong>Lưu</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="sua">
+            <h2>Chức năng Sửa</h2>
+            <p>Cho phép người dùng sửa thông tin chuyên khoa đã có.</p>
+            <ul>
+                <li>Người dùng chọn dòng cần sửa từ bảng.</li>
+                <li>Thông tin sẽ được hiển thị trong ô nhập liệu.</li>
+                <li>Người dùng chỉnh sửa và nhấn <strong>Lưu</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="xoa">
+            <h2>Chức năng Xóa</h2>
+            <p>Cho phép người dùng xóa chuyên khoa đã chọn.</p>
+            <ul>
+                <li>Người dùng chọn dòng muốn xóa và nhấn <strong>Xóa</strong>.</li>
+                <li>Hộp thoại xác nhận sẽ hiển thị trước khi thực hiện.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="luu">
+            <h2>Chức năng Lưu</h2>
+            <p>Lưu lại thông tin chuyên khoa sau khi thêm hoặc sửa.</p>
+            <ul>
+                <li>Kiểm tra dữ liệu đầu vào trước khi lưu.</li>
+                <li>Nếu hợp lệ, thông tin được lưu vào cơ sở dữ liệu.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="huybo">
+            <h2>Chức năng Hủy bỏ</h2>
+            <p>Khôi phục lại trạng thái ban đầu của giao diện.</p>
+            <ul>
+                <li>Làm mới dữ liệu và các ô nhập liệu.</li>
+                <li>Hủy các thao tác đang thực hiện.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="timkiem">
+            <h2>Chức năng Tìm kiếm</h2>
+            <p>Tìm kiếm chuyên khoa theo mã hoặc tên.</p>
+            <ul>
+                <li>Người dùng nhập từ khóa vào ô tìm kiếm.</li>
+                <li>Có thể nhấn Enter hoặc nút <strong>Tìm</strong> để thực hiện.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="xuat">
+            <h2>Chức năng Xuất Excel</h2>
+            <p>Xuất toàn bộ danh sách chuyên khoa ra tập tin Excel.</p>
+            <ul>
+                <li>Người dùng chọn nơi lưu file Excel.</li>
+                <li>Dữ liệu sẽ được xuất theo định dạng có sẵn.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="nhap">
+            <h2>Chức năng Nhập Excel</h2>
+            <p>Nhập dữ liệu chuyên khoa từ tập tin Excel.</p>
+            <ul>
+                <li>Người dùng chọn file Excel cần nhập.</li>
+                <li>Dữ liệu từ file sẽ được đọc và lưu vào CSDL.</li>
+                <li>Cảnh báo nếu file rỗng hoặc định dạng không hợp lệ.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="thoat">
+            <h2>Chức năng Thoát</h2>
+            <p>Đóng ứng dụng sau khi xác nhận.</p>
+            <ul>
+                <li>Hiển thị hộp thoại xác nhận trước khi thoát.</li>
+                <li>Nếu đồng ý, ứng dụng sẽ kết thúc.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="quaylai">
+            <h2><a href="">Quay lại</a></h2>
+        </div>
+    </div>
+    
+</body>
+</html>
