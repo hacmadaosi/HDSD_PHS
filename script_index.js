@@ -1,13 +1,13 @@
-window.addEventListener('DOMContentLoaded', () => {
-  const navBar = document.querySelector('.nav-bar');
-  const navItems = document.querySelectorAll('.nav-item');
+window.addEventListener("DOMContentLoaded", () => {
+  const navBar = document.querySelector(".nav-bar");
+  const navItems = document.querySelectorAll(".nav-item");
 
   function randomizePositions() {
     const barWidth = navBar.clientWidth;
     const barHeight = navBar.clientHeight;
     const positions = [];
 
-    navItems.forEach(item => {
+    navItems.forEach((item) => {
       const itemWidth = item.offsetWidth;
       const itemHeight = item.offsetHeight;
       let tries = 0;
@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
         left = Math.random() * (barWidth - itemWidth);
         top = Math.random() * (barHeight - itemHeight);
 
-        overlap = positions.some(pos => {
+        overlap = positions.some((pos) => {
           return (
             left < pos.left + pos.width &&
             left + itemWidth > pos.left &&
@@ -40,5 +40,5 @@ window.addEventListener('DOMContentLoaded', () => {
   randomizePositions();
 
   // Đổi vị trí mỗi 5 giây
-  setInterval(randomizePositions, 5000);
+  setInterval(randomizePositions, 1000);
 });
